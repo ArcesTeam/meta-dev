@@ -28,6 +28,7 @@ allprojects {
 subprojects {
   apply plugin: 'idea'
   apply plugin: 'java-library'
+  apply plugin: 'jacoco'
 
   dependencies {
     implementation "org.slf4j:slf4j-api:${slf4j_api_version}"
@@ -37,6 +38,17 @@ subprojects {
     testImplementation platform("org.junit:junit-bom:${jupiter_version}")
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+  }
+
+  // 覆盖率测试配置
+  jacocoTestReport {
+    reports {
+      xml.required.set(true)
+      html.required.set(true)
+      csv.required.set(false)
+      html.outputLocation = layout.buildDirectory.dir('reports/jacoco/html')
+      xml.outputLocation = layout.buildDirectory.file('reports/jacoco/report.xml')
+    }
   }
 
   tasks.withType(Test).configureEach {

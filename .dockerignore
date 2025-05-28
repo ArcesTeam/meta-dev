@@ -1,9 +1,8 @@
 ### 忽略项目文件夹，避免意外引入 ###
 .github/
-.gradle/
 .idea/
 CHANGELOG/
-gradle/
+docs/
 
 ### 忽略编译和构建相关的文件 ###
 **/build/
