@@ -1,28 +1,33 @@
+/*
+ * Copyright (c) 2025 ArcesTeam. All rights reserved.
+ * This project is licensed under the MIT License. See the LICENSE file for details.
+ * This software is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the MIT License for more details.
+ *
+ */
+
 plugins {
   id 'idea'
 }
 
 allprojects {
-  group = "com.arces.template"
-  version = "1.0.0"
+  group = mod_group_id
+  version = mod_version
 
   repositories {
+    mavenLocal()
     mavenCentral()
   }
 
   tasks.withType(JavaCompile).configureEach {
     options.encoding = 'UTF-8'
-    sourceCompatibility = '21'
-    targetCompatibility = '21'
+    sourceCompatibility = java_version
+    targetCompatibility = java_version
   }
 }
 
 subprojects {
   apply plugin: 'idea'
-
-  tasks.withType(JavaCompile).configureEach {
-    options.encoding = "UTF-8"
-  }
+  apply plugin: 'java-library'
 
   tasks.withType(Test).configureEach {
     useJUnitPlatform()

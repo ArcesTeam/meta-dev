@@ -18,10 +18,11 @@
 *.ipr
 **/out/
 !**/src/**/out/
-!.idea/vcs.xml
-!.idea/misc.xml
-!.idea/modules.xml
-
+.idea/vcs.xml
+.idea/misc.xml
+.idea/modules.xml
+## 额外配置
+.idea/.name
 
 ### Eclipse ###
 eclipse
