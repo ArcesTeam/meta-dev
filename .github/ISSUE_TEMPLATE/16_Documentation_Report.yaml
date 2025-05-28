@@ -2,8 +2,8 @@ name: "📚️ Documentation Report"
 description: "Please fill out all sections of this template carefully. Your feedback is crucial for improving the project. Thank you for your support!"
 title: "[Doc]: "
 labels:
-  - documentation
-  - low
+  - Documentation
+  - P3
 type: Documentation
 body:
   - type: markdown

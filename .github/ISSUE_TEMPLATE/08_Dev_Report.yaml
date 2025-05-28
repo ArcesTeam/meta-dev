@@ -2,8 +2,8 @@ name: "🧪 开发反馈"
 description: "本模板仅供项目内部开发人员使用，主要用于开发流程记录与进度反馈。非开发成员请勿使用，感谢理解与配合！"
 title: "[Dev]: "
 labels:
-  - development
-  - low
+  - Dev
+  - P1
 type: Dev
 body:
   - type: markdown

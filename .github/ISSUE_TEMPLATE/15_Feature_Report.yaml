@@ -2,8 +2,8 @@ name: "✨ Feature Report"
 description: "Please fill out all sections of this template carefully. Your feedback is crucial for improving the project. Thank you for your support!"
 title: "[Feat]: "
 labels:
-  - feature
-  - medium
+  - Feature
+  - P2
 type: Feature
 body:
   - type: markdown

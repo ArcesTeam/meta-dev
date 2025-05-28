@@ -2,8 +2,8 @@ name: "🚀 Performance Report"
 description: "Please fill out all sections of this template carefully. Your feedback is crucial for improving the project. Thank you for your support!"
 title: "[Perf]: "
 labels:
-  - performance
-  - high
+  - Performance
+  - P0
 type: Performance
 body:
   - type: markdown

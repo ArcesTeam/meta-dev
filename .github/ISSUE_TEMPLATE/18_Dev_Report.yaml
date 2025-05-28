@@ -2,8 +2,8 @@ name: "🧪 Dev Report"
 description: "This template is for internal project developers only. Non-developers, please do not use it. Thank you for your understanding and cooperation!"
 title: "[Dev]: "
 labels:
-  - development
-  - low
+  - Dev
+  - P1
 type: Dev
 body:
   - type: markdown

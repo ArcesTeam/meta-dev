@@ -2,8 +2,8 @@ name: "🛠️ Enhancement Report"
 description: "Please fill out all sections of this template carefully. Your feedback is crucial for improving the project. Thank you for your support!"
 title: "[Enh]: "
 labels:
-  - enhancement
-  - medium
+  - Enhancement
+  - P2
 type: Enhancement
 body:
   - type: markdown

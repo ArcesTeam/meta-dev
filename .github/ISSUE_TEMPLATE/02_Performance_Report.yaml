@@ -2,8 +2,8 @@ name: "🚀 性能反馈"
 description: "请认真填写本模板中的各项内容。您的反馈对项目改进至关重要，感谢您的支持！"
 title: "[Perf]: "
 labels:
-  - performance
-  - high
+  - Performance
+  - P0
 type: Performance
 body:
   - type: markdown

@@ -2,8 +2,8 @@ name: "❓ Question Report"
 description: "Please fill out all sections of this template carefully. Your feedback is crucial for improving the project. Thank you for your support!"
 title: "[Question]: "
 labels:
-  - question
-  - high
+  - Question
+  - P1
 type: Question
 body:
   - type: markdown

@@ -2,8 +2,8 @@ name: "🐛 Bug Report"
 description: "Please fill out all sections of this template carefully. Your feedback is crucial for improving the project. Thank you for your support!"
 title: "[Bug]: "
 labels:
-  - bug
-  - high
+  - Bug
+  - P0
 type: Bug
 body:
   - type: markdown
