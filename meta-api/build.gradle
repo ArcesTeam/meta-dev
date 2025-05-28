@@ -5,16 +5,3 @@
  *
  */
 
-// This file is used to configure the Gradle build system for the project.
-pluginManagement {
-  repositories {
-    mavenLocal()
-    mavenCentral()
-    gradlePluginPortal()
-  }
-}
-
-rootProject.name = 'meta'
-
-include 'meta-api'
-include 'meta-core'

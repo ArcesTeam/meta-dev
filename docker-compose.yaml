@@ -1,1 +1,16 @@
 version: '3.9'
+
+services:
+  meta-builder:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:workspace
+      - gradle-cache:/home/gradle/.gradle
+    working_dir: /workspace
+    tty: true
+    stdin_open: true
+
+volumes:
+  gradle-cache:
