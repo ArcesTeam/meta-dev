@@ -13,8 +13,8 @@ body:
 
         为帮助我们更高效地处理您的反馈，请尽可能详细、准确地填写以下内容。
 
-        - 提交前请查阅 [CONTRIBUTING](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/zh-CN/CONTRIBUTING.md) 以了解贡献流程和要求。
-        - 请遵守我们的 [行为准则](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/zh-CN/CODE_OF_CONDUCT.md)，保持尊重与友善。
+        - 提交前请查阅 [CONTRIBUTING](https://github.com/ArcesTeam/meta-dev/blob/main/.github/lang/zh-CN/CONTRIBUTING.md) 以了解贡献流程和要求。
+        - 请遵守我们的 [行为准则](https://github.com/ArcesTeam/meta-dev/blob/main/.github/lang/zh-CN/CODE_OF_CONDUCT.md)，保持尊重与友善。
         - 提交前请先搜索现有 Issue，避免重复反馈。
         - 明确的标题和详细的描述（包括复现步骤）将大幅提升处理效率。
 
@@ -25,15 +25,15 @@ body:
       value: |
         ### 关于 🐛 Bug 反馈
 
-        本模板仅用于反馈带有明确日志记录的问题。如遇不确定性问题或其他疑问，建议使用 [❓ 问题反馈](https://github.com/ArcesTeam/{{project-name}}/issues/new?template=03_Question_Report.yaml) 模板。
+        本模板仅用于反馈带有明确日志记录的问题。如遇不确定性问题或其他疑问，建议使用 [❓ 问题反馈](https://github.com/ArcesTeam/meta-dev/issues/new?template=03_Question_Report.yaml) 模板。
 
         您也可访问 [Discussions](https://github.com/orgs/ArcesTeam/discussions) 查找相关话题。
 
-        请确保您使用的是项目最新版本。部分历史依赖或已知问题可能已在新版中修复，详见 [CHANGELOG](https://github.com/ArcesTeam/{{project-name}}/blob/main/CHANGELOG/)。
+        请确保您使用的是项目最新版本。部分历史依赖或已知问题可能已在新版中修复，详见 [CHANGELOG](https://github.com/ArcesTeam/meta-dev/blob/main/CHANGELOG/)。
 
-        > 性能相关问题（如运行效率、内存泄漏等），请使用 [🚀 性能反馈](https://github.com/ArcesTeam/{{project-name}}/issues/new?template=02_Performance_Report.yaml) 模板。
+        > 性能相关问题（如运行效率、内存泄漏等），请使用 [🚀 性能反馈](https://github.com/ArcesTeam/meta-dev/issues/new?template=02_Performance_Report.yaml) 模板。
         >
-        > 系统性故障、安全漏洞等敏感问题，请勿通过此模板提交，详见 [SECURITY](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/zh-CN/SECURITY.md)。
+        > 系统性故障、安全漏洞等敏感问题，请勿通过此模板提交，详见 [SECURITY](https://github.com/ArcesTeam/meta-dev/blob/main/.github/lang/zh-CN/SECURITY.md)。
 
         再次感谢您的支持！🙏
 
@@ -128,7 +128,7 @@ body:
 
         ### 行为准则声明
 
-        提交本 Issue 即表示您同意遵守我们的[行为准则](https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/zh-CN/CODE_OF_CONDUCT.md)。
+        提交本 Issue 即表示您同意遵守我们的[行为准则](https://github.com/ArcesTeam/meta-dev/blob/main/.github/lang/zh-CN/CODE_OF_CONDUCT.md)。
         感谢您保持友善与尊重！
 
         ✅ 我同意遵守本项目的行为准则。
