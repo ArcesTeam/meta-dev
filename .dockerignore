@@ -1,0 +1,17 @@
+### 忽略项目文件夹，避免意外引入 ###
+.github/
+.gradle/
+.idea/
+CHANGELOG/
+gradle/
+
+### 忽略编译和构建相关的文件 ###
+**/build/
+**/.cache/
+**/bin/
+
+### 忽略临时和日志文件 ###
+*.tmp
+*.temp
+*.log
+*.class
