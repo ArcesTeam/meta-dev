@@ -1,74 +1,83 @@
 # Project Name
 
+<!--suppress HtmlDeprecatedAttribute -->
 <p align="right">
-  <a href="https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/zh-CN/README.md" title="简体中文">CN 简体中文</a> &nbsp;|&nbsp;
+  <a href="https://github.com/ArcesTeam/meta-dev/blob/main/.github/lang/zh-CN/README.md" title="简体中文">CN 简体中文</a> &nbsp;|&nbsp;
   <strong>EN English</strong>
 </p>
 
-> This README is a general template suitable for various projects. Please modify
-> and supplement it according to your actual needs.
+> **Meta 项目的实际开发仓库**
 
-## Project Overview
+---
 
-Briefly introduce the core features, goals, and application scenarios of the
-project.
-For example: This project aims to provide an efficient and scalable XXX
-solution, suitable for XXX scenarios.
+## 📘 项目简介
 
-## Features
+作为 Meta 项目的实际开发用途仓库，记录并保存完整的开发过程细节。可能包含历史版本或先行版本代码。
 
-- Feature one description
-- Feature two description
-- ...
-- Support for multi-platform/multi-language/plugin extension, etc.
+项目主分支 main
+并不代表最终品质，也并不作为稳定发布版本使用，若需要查看最终稳定发布版本，请查看 [Meta](https://github.com/ArcesTeam/meta)
 
-## Quick Start
+---
 
-### Requirements
+## 🧩 项目结构
 
-- Dependency 1 (e.g., Node.js >= 18, Python >= 3.10, etc.)
-- Dependency 2
-- ...
+暂未处于稳定开发状态，项目结构可能会发生变化。
 
-### Installation & Run
+---
 
-```bash
-# Clone the repository
-git clone <your-repo-url>
-cd <your-project-dir>
+## ⚙️ Gradle 使用说明
 
-# Install dependencies
-<your-install-command>
+项目主体使用 Gradle 作为构建工具，以下是一些基本的使用说明和命令示例。
 
-# Start the project
-<your-start-command>
-```
+若您对于 Gradle
+不熟悉，建议先阅读 [Gradle 官方文档](https://docs.gradle.org/current/userguide/userguide.html)
+以了解基本概念和用法。
 
-### Example Usage
+### 🔧 构建要求
+
+- **JDK**：17 或以上版本（推荐使用 `21`）
+- **Gradle**：支持 Gradle Wrapper (`./gradlew`)
+- **构建脚本语言**：使用 `groovy`
+
+### 🏗️ 构建命令示例
 
 ```bash
-<your-example-command>
+# 使用 Wrapper 构建所有模块
+./gradlew build
+
+# 清理构建产物
+./gradlew clean
+
+# 构建指定模块（例如 core）
+./gradlew :core:build
+
+# 列出所有可用任务
+./gradlew tasks
 ```
 
-## Documentation & Support
+---
 
-- [User Documentation](./docs/)
-- [FAQ](./docs/FAQ.md)
-- [Contributing Guide](./CONTRIBUTING.md)
-- [Code of Conduct](./.github/lang/en-US/CODE_OF_CONDUCT.md)
-- [Security Policy](./.github/lang/en-US/SECURITY.md)
+## ⚡️ 快速开始
 
-If you need help or have any questions, please contact us via Issue or
-Discussions.
+当前暂无快速开始指南，项目仍在开发中。
 
-## Contribution
+## 📄 License
 
-Community contributions are welcome!
-Please read [CONTRIBUTING.md](./CONTRIBUTING.md) for detailed processes and
-guidelines.
+本模板项目采用 [MIT License](https://github.com/ArcesTeam/meta-dev/blob/main/LICENSE)。
 
-## License
+---
 
-This project uses MIT / Apache-2.0 / GPL-3.0 or other open source licenses (
-please choose and supplement as appropriate).
+## 📣 联系我们
 
+此项目由 [ArcesTeam](https://github.com/ArcesTeam) 维护，欢迎提出改进建议或提交
+PR
+
+---
+
+## ✅ 你还可以：
+
+- ❓
+  在 [Issues](https://github.com/ArcesTeam/meta-dev/issues/new?template=03_Question_Report.yaml)
+  中提交问题或反馈；
+- 💬 在 [Discussions](https://github.com/orgs/ArcesTeam/discussions)
+  中提交问题或反馈项目建议；

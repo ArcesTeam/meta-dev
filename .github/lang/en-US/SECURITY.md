@@ -1,7 +1,8 @@
 # 🛡️ Security Policy
 
+<!--suppress HtmlDeprecatedAttribute -->
 <p align="right">
-  <a href="https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/zh-CN/SECURITY.md" title="简体中文">CN 简体中文</a> &nbsp;|&nbsp;
+  <a href="https://github.com/ArcesTeam/meta-dev/blob/main/.github/lang/zh-CN/SECURITY.md" title="简体中文">CN 简体中文</a> &nbsp;|&nbsp;
   <strong>EN English</strong>
 </p>
 
@@ -34,7 +35,7 @@ via one of the following methods:
   `security@example.com`](mailto:security@example.com)
 - 🔒 **GitHub Security Advisories** (if enabled): Submit a confidential report
   via
-  the [Security Advisories](https://github.com/ArcesTeam/{{project-name}}/security/advisories)
+  the [Security Advisories](https://github.com/ArcesTeam/meta-dev/security/advisories)
   page
 
 **Do not disclose sensitive vulnerabilities in public issues or discussion areas

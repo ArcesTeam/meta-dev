@@ -1,68 +1,78 @@
-# 项目名称
+# 📦 Meta-Dev
 
+<!--suppress HtmlDeprecatedAttribute -->
 <p align="right">
   <strong>CN 简体中文</strong> &nbsp;|&nbsp;
-  <a href="https://github.com/ArcesTeam/{{project-name}}/blob/main/.github/lang/en-US/README.md" title="English">EN English</a>
+  <a href="https://github.com/ArcesTeam/meta-dev/blob/main/.github/lang/en-US/README.md" title="English">EN English</a>
 </p>
 
-> 本 README 为通用模板，适用于各类项目。请根据实际情况进行相应修改和补充。
+> **Meta 项目的实际开发仓库**
 
-## 项目简介
+---
 
-简要介绍项目的核心功能、目标和适用场景。
-例如：本项目旨在提供高效、可扩展的 XXX 解决方案，适用于 XXX 场景。
+## 📘 项目简介
 
-## 功能特性
+作为 Meta 项目的实际开发用途仓库，记录并保存完整的开发过程细节。可能包含历史版本或先行版本代码。
 
-- 功能一简述
-- 功能二简述
-- ...
-- 支持多平台/多语言/插件扩展等
+项目主分支 main
+并不代表最终品质，也并不作为稳定发布版本使用，若需要查看最终稳定发布版本，请查看 [Meta](https://github.com/ArcesTeam/meta)
 
-## 快速开始
+---
 
-### 环境要求
+## 🧩 项目结构
 
-- 依赖项 1（如 Node.js >= 18、Python >= 3.10 等）
-- 依赖项 2
-- ...
+暂未处于稳定开发状态，项目结构可能会发生变化。
 
-### 安装与运行
+---
 
-```bash
-# 克隆仓库
-git clone <your-repo-url>
-cd <your-project-dir>
+## ⚙️ Gradle 使用说明
 
-# 安装依赖
-<your-install-command>
+项目主体使用 Gradle 作为构建工具，以下是一些基本的使用说明和命令示例。
 
-# 启动项目
-<your-start-command>
-```
+若您对于 Gradle 不熟悉，建议先阅读 [Gradle 官方文档](https://docs.gradle.org/current/userguide/userguide.html)
+以了解基本概念和用法。
 
-### 示例用法
+### 🔧 构建要求
+
+- **JDK**：17 或以上版本（推荐使用 `21`）
+- **Gradle**：支持 Gradle Wrapper (`./gradlew`)
+- **构建脚本语言**：使用 `groovy`
+
+### 🏗️ 构建命令示例
 
 ```bash
-<your-example-command>
+# 使用 Wrapper 构建所有模块
+./gradlew build
+
+# 清理构建产物
+./gradlew clean
+
+# 构建指定模块（例如 core）
+./gradlew :core:build
+
+# 列出所有可用任务
+./gradlew tasks
 ```
 
-## 文档与支持
+---
 
-- [使用文档](./docs/)
-- [常见问题](./docs/FAQ.md)
-- [贡献指南](./CONTRIBUTING.md)
-- [行为准则](./.github/lang/zh-CN/CODE_OF_CONDUCT.md)
-- [安全政策](./.github/lang/zh-CN/SECURITY.md)
+## ⚡️ 快速开始
 
-如需帮助或有任何疑问，请通过 Issue 或 Discussions 与我们联系。
+当前暂无快速开始指南，项目仍在开发中。
 
-## 贡献
+## 📄 License
 
-欢迎社区成员参与贡献！
-请阅读 [CONTRIBUTING.md](./CONTRIBUTING.md) 了解详细流程和规范。
+本模板项目采用 [MIT License](https://github.com/ArcesTeam/meta-dev/blob/main/LICENSE)。
 
-## 许可证
+---
 
-本项目采用 MIT / Apache-2.0 / GPL-3.0 等开源许可证（请根据实际情况选择并补充）。
+## 📣 联系我们
 
+此项目由 [ArcesTeam](https://github.com/ArcesTeam) 维护，欢迎提出改进建议或提交 PR
+
+---
+
+## ✅ 你还可以：
+
+- ❓ 在 [Issues](https://github.com/ArcesTeam/meta-dev/issues/new?template=03_Question_Report.yaml) 中提交问题或反馈；
+- 💬 在 [Discussions](https://github.com/orgs/ArcesTeam/discussions) 中提交问题或反馈项目建议；
