@@ -1,5 +1,6 @@
 # 开发规约与流程指南
 
+<!--suppress HtmlDeprecatedAttribute -->
 <p align="right">
   <strong>CN 简体中文</strong> &nbsp;|&nbsp;
   <a href="https://github.com/ArcesTeam/meta-dev/blob/main/.github/lang/en-US/CONTRIBUTING-GUIDE.md" title="English">EN English</a>

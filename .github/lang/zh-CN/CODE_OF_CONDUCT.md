@@ -1,5 +1,6 @@
 # 贡献者行为准则
 
+<!--suppress HtmlDeprecatedAttribute -->
 <p align="right">
   <strong>CN 简体中文</strong> &nbsp;|&nbsp;
   <a href="https://github.com/ArcesTeam/meta-dev/blob/main/.github/lang/en-US/CODE_OF_CONDUCT.md" title="English">EN English</a>
